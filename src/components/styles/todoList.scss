@@ -1,0 +1,135 @@
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.todo-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #37678f;
+    padding: 0.5rem;
+    width: 30%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    height: auto;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+
+    & .icon-trash-container{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin: 0 0.25rem 0 0.4rem;
+        font-size: 1.4rem;
+        border: none;
+        background: none;
+    }
+
+    & .icon-modify-container {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin: 0 0.25rem 0 0.25rem;
+        font-size: 1.4rem;
+        border: none;
+        background: none;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .todo-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5vh;
+    }
+    
+    .todo-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid #37678f;
+        padding: 0.5rem;
+        width: 70%;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+        height: auto;
+    }
+    
+    .icons-container {
+        display: flex;
+        justify-content: space-between;
+    
+        & .icon-trash-container{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin: 0 0.25rem 0 0.4rem;
+            font-size: 1.4rem;
+            border: none;
+            background: none;
+        }
+    
+        & .icon-modify-container {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin: 0 0.25rem 0 0.25rem;
+            font-size: 1.4rem;
+            border: none;
+            background: none;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .todo-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5vh;
+    }
+    
+    .todo-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid #37678f;
+        padding: 0.5rem;
+        width: 50%;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+        height: auto;
+    }
+    
+    .icons-container {
+        display: flex;
+        justify-content: space-between;
+    
+        & .icon-trash-container{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin: 0 0.25rem 0 0.4rem;
+            font-size: 1.4rem;
+            border: none;
+            background: none;
+        }
+    
+        & .icon-modify-container {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin: 0 0.25rem 0 0.25rem;
+            font-size: 1.4rem;
+            border: none;
+            background: none;
+        }
+    }
+}
